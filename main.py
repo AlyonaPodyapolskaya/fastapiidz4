@@ -1,12 +1,11 @@
 from fastapi import FastAPI
 from public.employees import employees_router #, init_db
-from db import create_tables
 
 
 
 app = FastAPI()
 
-create_tables()
+
 
 app.include_router(employees_router)
 
