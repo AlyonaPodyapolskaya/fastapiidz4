@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from public.employees import employees_router #, init_db
+from public.employees import employees_router 
 
 
 
